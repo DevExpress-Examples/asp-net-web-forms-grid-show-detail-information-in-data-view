@@ -1,6 +1,6 @@
 using System;
 using System.Web.UI;
-using DevExpress.Web.ASPxDataView;
+using DevExpress.Web;
 
 public partial class _Default : System.Web.UI.Page {
     protected void ASPxDataView1_Load(object sender, EventArgs e) {
@@ -8,7 +8,7 @@ public partial class _Default : System.Web.UI.Page {
         AccessDataSource1.SelectParameters["CategoryID"].DefaultValue = Session["CategoryID"].ToString();
         (sender as ASPxDataView).DataBind();
     }
-    protected void ASPxDataView1_CustomCallback(object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e) {
+    protected void ASPxDataView1_CustomCallback(object sender, DevExpress.Web.CallbackEventArgsBase e) {
         Session["CategoryID"] = e.Parameter;
         AccessDataSource1.SelectParameters["CategoryID"].DefaultValue = e.Parameter;
         (sender as ASPxDataView).DataBind();

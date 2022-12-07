@@ -1,7 +1,7 @@
 Imports Microsoft.VisualBasic
 Imports System
 Imports System.Web.UI
-Imports DevExpress.Web.ASPxDataView
+Imports DevExpress.Web
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
@@ -12,7 +12,7 @@ Partial Public Class _Default
 		AccessDataSource1.SelectParameters("CategoryID").DefaultValue = Session("CategoryID").ToString()
         TryCast(sender, ASPxDataView).DataBind()
 	End Sub
-	Protected Sub ASPxDataView1_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxClasses.CallbackEventArgsBase)
+	Protected Sub ASPxDataView1_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 		Session("CategoryID") = e.Parameter
 		AccessDataSource1.SelectParameters("CategoryID").DefaultValue = e.Parameter
         TryCast(sender, ASPxDataView).DataBind()

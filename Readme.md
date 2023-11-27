@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # How to show the ASPxGridView's detail information in the ASPxDataView
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e2529/)**
+**[[Run Online]](https://codecentral.devexpress.com/128542929/)**
 <!-- run online end -->
 
 

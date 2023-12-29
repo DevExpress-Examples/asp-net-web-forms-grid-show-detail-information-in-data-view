@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to show detail information in the DataView control
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128542929/)**
-<!-- run online end -->
 
 This example demonstrates how to use [ASPxGridView](https://docs.devexpress.com/AspNet/5823/components/grid-view) and [ASPxDataView](https://docs.devexpress.com/AspNet/8280/components/data-and-image-navigation/dataview) controls to show master-detail data. When a user selects a row in the master Grid View, the DataView control displays detail data.
 

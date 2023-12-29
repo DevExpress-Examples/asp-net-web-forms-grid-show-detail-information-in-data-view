@@ -10,9 +10,6 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to show the ASPxGridView's detail information in the ASPxDataView
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128542929/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how to use the ASPxDataView control to show the ASPxGridView's detail data.</p><p><strong>See Also:</strong><br />

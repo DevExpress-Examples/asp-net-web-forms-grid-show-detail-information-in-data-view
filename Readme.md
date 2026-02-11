@@ -28,7 +28,7 @@ On the server, the [PerformCallback](https://docs.devexpress.com/AspNet/js-ASPxC
 - [How to show detail information in a separate Grid](https://github.com/DevExpress-Examples/aspxgridview-show-detail-information-in-separate-grid)
 - [How to display a popup dialog when a user clicks a lnk in a Grid row](https://github.com/DevExpress-Examples/asp-net-web-forms-grid-display-popup-when-user-clicks-cell-link)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-show-detail-information-in-data-view&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-show-detail-information-in-data-view&~~~was_helpful=no)
 
